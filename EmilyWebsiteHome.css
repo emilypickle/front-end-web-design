@@ -1,0 +1,389 @@
+html {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	min-height: 100%;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	min-height: 100%;
+	background-color: #EAEAEA;
+}
+
+h1 {
+	font-family: 'Montserrat';
+	font-size: 30px;
+	font-weight: 300;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	padding: 0;
+}
+
+h2 {
+	font-family: 'Montserrat';
+	font-size: 24px;
+	font-weight: 300;
+	margin-block-start: 0.8em;
+	margin-block-end: 0.8em;
+	padding: 0;
+}
+
+p {
+	font-family: 'Cardo';
+	font-size: 20px;
+	line-height: 32px;
+	margin: 0;
+	padding: 0;
+	
+}
+
+ul {
+	font-family: 'Cardo';
+	font-size: 20px;
+	
+	list-style-type: none;
+}
+
+a:hover {
+	
+}
+a:link {
+	color: black;
+	text-decoration: none;
+}
+a:visited {
+	color:black;
+	text-decoration: none;
+}
+a:active {
+	color:grey;
+	text-decoration: none;
+}
+a.current:link, a.current:visited {
+	
+}
+
+hr {
+	width: 90%;
+	margin: 0;
+	background-color: #EAEAEA;
+	border: 2px solid #987A3E;
+	color: #987A3E;
+	position: absolute;
+	left: 5%;
+}
+
+#menu {
+	position: absolute;
+	right: 5%;
+	top: 1%;
+
+}
+
+
+
+
+#taskbarTitle {
+	position: relative;
+	float: left;
+	width: 70%;
+	left: 2%;
+	top: 1%;
+}
+
+#menuBtns {
+	position: relative;
+	float: right;
+	opacity: 0.3;
+	
+	width: 30%;
+	//background-color: white;
+	
+	height: 100%;
+}
+
+#homeBtn {
+	
+}
+
+#homeTextBtn {
+	text-align: right;
+	padding-right: 12%;
+	font-family: 'Montserrat';
+	color: #EAEAEA;
+	font-weight: bold;
+	display: block;
+    font-size: 1.8em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#homeTextBtn:hover {
+	text-decoration: underline;
+}
+
+
+#historyBtn {
+	
+}
+
+#historyTextBtn {
+	text-align: right;
+	padding-right: 10%;
+	font-family: 'Montserrat';
+	color: #EAEAEA;
+	font-weight: bold;
+	display: block;
+    font-size: 1.8em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#historyTextBtn:hover {
+	text-decoration: underline;
+}
+
+.parallax {
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+#coverImg {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	opacity: 1;
+	background-image: url("coverImageBW.jpg");
+	
+
+}
+
+#introduction {
+	
+	margin-bottom: 5%;
+	margin-top: 5%;
+	width: 100%;
+	height: auto;
+	background-color: #EAEAEA; 
+}
+#introduction h1 {
+	text-align: center;
+}
+#introduction p {
+	text-align: center;
+	padding: 2%;
+}
+
+#description {
+	width: 100%;
+	overflow-y: hidden;
+	height: auto;
+	background-color: #EAEAEA; 
+}
+
+
+#descriptionImg {
+	width: 35%;
+	height: auto;
+	padding-left: 2%;
+}
+
+#desRight {
+	width: 60%;
+	height: auto;
+	float: right;
+
+}
+
+#desRight p {
+	padding-right: 3%;
+}
+
+#history {
+	overflow-y: hidden;
+	
+	background-color: #EAEAEA;
+	height:auto;
+	width: 100%;
+	margin 0;
+}
+#history ul {
+	text-align: left;
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+#history h1 {
+	text-align: center;
+	padding-bottom: 3%;
+}
+#history p {
+	text-align: left;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#hisImgs {
+	width: 100%;
+}
+
+#hisImgs img {
+	padding-left: 2.5%;
+	padding-top: 60px;
+	padding-bottom: 3%;
+	width: 30%;
+	height: 350px;
+}
+
+#robinBoyd {
+	width: 100%;
+	height: auto;
+	overflow-y: hidden;
+}
+#robinBoyd h1 {
+	text-align: center;
+}
+
+#robinBoydImg {
+	width: 40%;
+	padding: 5%;
+	
+	
+}
+
+#robRight {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 50%;
+	float: right;
+}
+
+#statement {
+	width: 100%;
+	height: auto;
+	overflow-y: hidden;
+	background-color: lightgray;
+}
+#statement ul {
+	text-align: center;
+}
+
+#statement h1 {
+	text-align: center;
+}
+#statement p {
+	text-align: center;
+	padding: 2%;
+}
+
+
+
+#bar {
+	opacity: 0.3;
+	width: 35px;
+  	height: 5px;
+  	background-color: #EAEAEA;
+  	margin: 6px 0;
+}
+
+
+
+//Colour codes
+.dark-gold {color: #8E793E}
+.light-gold {color: #AD974F}
+.intellectual-grey {color: #231F20}
+.light-grey {color: #EAEAEA}
+
+#footer {
+  	width: 100%;
+  	height: 5vh;
+  	background-color: #EAEAEA;
+  	margin: 0;
+  	padding: 0;
+  	padding-top: 1%;
+}
+#footer p {
+	text-align: center;
+
+}
+#historyFooter {
+	width: 100%;
+  	height: 5vh;
+  	background-color: lightgray;
+  	margin: 0;
+  	padding: 0;
+  	padding-top: 1%;
+}
+#historyFooter p {
+	text-align: center;
+
+}
+@media screen and (max-width: 1600px) {
+	
+}
+
+@media screen and (max-width: 1200px) {
+	#descriptionImg {
+		width: 100%;
+		padding-left: 0%;
+	}
+	#desRight {
+		width: 100%;
+
+	}
+	#desRight h1 {
+		text-align: center;
+	}
+	#desRight h2 {
+		text-align: center;
+	}
+	#desRight p {
+		text-align: center;
+		padding-left: 3%;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	#robinBoydImg {
+		width: 100%;
+		padding: 0;
+		padding-top: 5%;
+	}
+	#robRight {
+		width: 100%;
+	}
+	#robRight h1 {
+		text-align: center;
+	}
+	#robRight p {
+		padding: 5%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	
+
+	#historyFooter {
+		height: 8vh;
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+	
+	
+	#hisImgs img {
+		width: 95%;
+	}
+}
+
