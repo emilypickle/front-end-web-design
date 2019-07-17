@@ -2,27 +2,28 @@
 <html lang="en">
 	<head>
 	<title>History of Churchill House</title>
+	<!--Links to 2 differents fonts that are used in the website and a link to the reset stylesheet and my own stylesheet-->
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet'>
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="EmilyWebsiteHome.css">
 	</head>
 	<body>
-		<div id="stickyHeader">
-			<div id="taskbarTitle">
-				
+		<!--These are the menu buttons at the top of the page-->	
+		
+		<div id="menuBtns">
+			<div id="homeBtn">
+				<!--I know I'm not supposed to style in html but to make the this colour it was quicker to do it this way. Also I'm pretty lazy. Sorry-->
+				<a href="index.html" id="homeTextBtn" style="color: #231F20" >Home</a>
 			</div>
-			<div id="menuBtns">
-				<div id="homeBtn">
-					<a href="index.html" id="homeTextBtn" style="color: #231F20" >Home</a>
-				</div>
-				<div id="historyBtn">
-					<a href="history.html" id="historyTextBtn" class="current" style="color: #231F20">History</a>
-				</div>
+			<div id="historyBtn">
+				<!--You will notice the 'current' class for the button. This is just to make it obvious to a reader of the website that the current page they are on is the history page. It is the home button on the home page obviously-->
+				<a href="history.html" id="historyTextBtn" class="current" style="color: #231F20">History</a>
 			</div>
 		</div>
 		
 		
+		<!--This is the history div which has a bunch of text followed by some concept and sketch images of the churchill house-->
 		<div id="history">
 			<h1>History</h1>
 			<p>
@@ -58,14 +59,16 @@ Churchill House is one of a number of Canberra buildings designed in the Late Tw
 <p>
 Churchill House is an early example in this context, and one of only two examples of an office building. While Brutalism has been described as an ethic rather than an aesthetic (Banham 1966:10), both office buildings display a more restrained form compared to the other buildings, several of which were intended to portray a distinctive image in the national capital.
 </p>
-
+			<!--The images are like blocks next to each and they expand and compress based on the size of the screen-->
 			<div id="hisImgs">
 				<img src="sketch1.jpg" alt="Churchill House Sketch">
 				<img src="sketch2.jpg" alt="Churchill House Sketch">
 				<img src="concept.png" alt="Churchill House Concept">
 			</div>
 		</div>
+		<!--This is just a decorative divider line thing, I thought it looked nice-->
 		<hr>
+		<!--This is the section on robin boyd. It has an image and a lot of text. The layout is similar to the description section on the home page-->
 		<div id="robinBoyd">
 			<h1>Robin Boyd</h1>
 			<img src="robinBoyd.jpg" alt="Robin Boyd" id="robinBoydImg">
@@ -123,7 +126,7 @@ Boyd received the Royal Australian Institute of Architects Gold Medal in 1969 an
 </p>
 			</div>
 		</div>
-		
+		<!--This is the statement of significance section. Its just some centered text. nothing special-->
 		<div id="statement">
 			<h1>Statement of Significance</h1>
 			<p>
@@ -144,6 +147,7 @@ Churchill House has interest for its association with the prominent architect, R
 </p>
 		</div>
 		<hr>
+		<!--Same footer as the home page-->
 		<div id="historyFooter">
 			<p>This website was created by students in the Faculty of Arts & Design, University of Canberra, 2019.</p>
 		</div>

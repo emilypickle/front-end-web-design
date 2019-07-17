@@ -1,3 +1,5 @@
+/*Commenting on every single style thing would take way too long 
+so I'm going to comment on sections that might not make sense*/
 html {
 	padding: 0px;
 	margin: 0px;
@@ -64,9 +66,6 @@ a:active {
 	color:grey;
 	text-decoration: none;
 }
-a.current:link, a.current:visited {
-	
-}
 
 hr {
 	width: 90%;
@@ -78,6 +77,13 @@ hr {
 	left: 5%;
 }
 
+/*Special colours used on the website*/
+.dark-gold {color: #8E793E}
+.light-gold {color: #AD974F}
+.intellectual-grey {color: #231F20}
+.light-grey {color: #EAEAEA}
+
+
 #menu {
 	position: absolute;
 	right: 5%;
@@ -85,8 +91,9 @@ hr {
 
 }
 
-
-
+#logo {
+	width: 45%;
+}
 
 #taskbarTitle {
 	position: relative;
@@ -102,7 +109,7 @@ hr {
 	opacity: 0.3;
 	
 	width: 30%;
-	//background-color: white;
+	
 	
 	height: 100%;
 }
@@ -126,9 +133,6 @@ hr {
 	text-decoration: underline;
 }
 
-
-
-
 #historyTextBtn {
 	text-align: right;
 	padding-right: 10%;
@@ -146,7 +150,9 @@ hr {
 #historyTextBtn:hover {
 	text-decoration: underline;
 }
-
+/*This is the parallax effect. I will explain it further in my reflection but
+essentially it is an effect that makes section of the website appear as if it is 
+gliding over a background image. */
 .parallax {
 	background-attachment: fixed;
   	background-position: center;
@@ -160,8 +166,6 @@ hr {
 	height: 100vh;
 	opacity: 1;
 	background-image: url("coverImageBW.jpg");
-	
-
 }
 
 #introduction {
@@ -193,7 +197,7 @@ hr {
 	height: auto;
 	padding-left: 2%;
 }
-
+/*right side of the description section*/
 #desRight {
 	width: 60%;
 	height: auto;
@@ -228,7 +232,7 @@ hr {
 	padding-left: 5%;
 	padding-right: 5%;
 }
-
+/*images that are in the history section*/
 #hisImgs {
 	width: 100%;
 }
@@ -253,10 +257,8 @@ hr {
 #robinBoydImg {
 	width: 40%;
 	padding: 3%;
-	
-	
 }
-
+/*Right side of the Robin boyd section*/
 #robRight {
 	padding-top: 3%;
 	padding-bottom: 5%;
@@ -270,37 +272,13 @@ hr {
 	height: auto;
 	overflow-y: hidden;
 	background-color: lightgray;
-}
-#statement ul {
 	text-align: center;
 }
 
-#statement h1 {
-	text-align: center;
-}
 #statement p {
-	text-align: center;
 	padding-left: 3%;
 	padding-right: 3%;
 }
-
-
-
-#bar {
-	opacity: 0.3;
-	width: 35px;
-  	height: 5px;
-  	background-color: #EAEAEA;
-  	margin: 6px 0;
-}
-
-
-
-//Colour codes
-.dark-gold {color: #8E793E}
-.light-gold {color: #AD974F}
-.intellectual-grey {color: #231F20}
-.light-grey {color: #EAEAEA}
 
 #footer {
   	width: 100%;
@@ -315,6 +293,9 @@ hr {
 	padding: 0;
 	margin: 0;
 }
+/*Needed different styles for each footer because colouring was a bit different
+honestly looking at it now I didn't need to do this but I couldn't be bothered
+changing it now. Sorry*/
 #historyFooter {
 	width: 100%;
   	height: 5vh;
@@ -328,10 +309,10 @@ hr {
 	padding: 0;
 	margin: 0;
 }
-@media screen and (max-width: 1600px) {
-	
-}
-
+/*This is the section that makes the website more responsive. The website changes
+when the screen size is either 1200px wide or less, then 1100px wide or less, 
+then 900px wide or less and finally 800px wide or less. This just makes the website
+readable on all devices. i.e phone screen vs laptop screen*/
 @media screen and (max-width: 1200px) {
 	#descriptionImg {
 		width: 100%;
